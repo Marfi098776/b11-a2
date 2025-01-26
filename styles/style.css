@@ -34,7 +34,7 @@ li{
 .color-1{
     color: #FEA301;
 }
-.color-2{
+.color-2, .toward{
     color: #01ACFD;
 }
 .color-3{
@@ -46,7 +46,7 @@ li{
 .Admission{
     color: #5D58EF;
 }
-.btn-1{
+.btn-1, .btn-2{
     width: 197px;
     height: 50px;
     border-radius: 12px;
@@ -56,7 +56,32 @@ li{
     font-weight: 600;
     font-size: 1.25rem;
 }
+.btn-2{
+    background-color: #111111;
+}
+/* main section */
 
+.hero-kids{
+    max-width: 1160px;
+    max-height: 575px;
+    margin: 0 auto;
+}
+.hero-section{
+    margin-top: 122px;
+    margin-bottom: 122px;
+    align-items: center;
+    text-align: start;
+    gap: 24px;
+}
+.hero-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.hero-title{
+    font-weight:700;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+}
 
 @media screen and (max-width: 576px) {
     .navbar{
